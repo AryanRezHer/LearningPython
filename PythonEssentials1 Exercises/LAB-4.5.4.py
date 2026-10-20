@@ -26,5 +26,7 @@ while True:
     if number > 0:
         break
 
-resultado = Fibonacci(number)
-print("Fib", number, "=", resultado)
+
+for i in range(1, number + 1):
+    resultado = Fibonacci(i)
+    print("Fib", i, "=", resultado)
